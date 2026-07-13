@@ -1,16 +1,42 @@
-# React + Vite
+ Speecto.com UI Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Description
+Speecto.com (software development company) ka pixel-perfect UI clone using React + Vite.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
+- React + Vite
+- CSS Modules
+- Framer Motion (Animations)
+- Lucide React (Icons)
+- Context API (Dark/Light Mode)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- 🎨 Pixel-perfect UI clone
+- 🌓 Dark/Light mode
+- ✨ Smooth animations (Framer Motion)
+- 📱 Fully responsive
+- 🎯 Typewriter effect
+- 🌀 Floating elements
 
-## React Compiler
+## 🏗️ Project Structure
+src/
+├── components/
+│ ├── abstract/ # Reusable components
+│ ├── shared/ # Cross-page components
+│ └── sections/ # Page sections
+├── constants/ # Data files
+├── context/ # Theme context
+└── styles/ # Global styles
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+text
 
-## Expanding the ESLint configuration
+## 🔧 Installation
+```bash
+npm install
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👩‍💻 Author
+[Mukarma Rehman]
+
+📝 License
+This is a practice project for learning purposes.
